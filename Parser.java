@@ -1,7 +1,7 @@
 package os.assigment1;
 
 /**
- * @author obakry
+ * @author Reem
  */
 class Parser {
 
@@ -17,10 +17,10 @@ class Parser {
         int index = 0;
         for (int i = 0; i < input.length(); i++) // for loop to count the number of spaces in the input String
         {
-            if (input.charAt(i) == ' ')
+            if (input.charAt(i) == ' ') {
                 countSpaces++;
+            }
         }
-        
         String[] splittingarray = new String[countSpaces + 1];
         if (countSpaces == 0) // in case the input contains no spaces
         {
